@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9874" started-at="2020-04-26T11:34:34Z" finished-at="2020-04-26T11:34:44Z">
+  <suite name="Default suite" duration-ms="10527" started-at="2020-04-29T14:27:47Z" finished-at="2020-04-29T14:27:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9874" started-at="2020-04-26T11:34:34Z" finished-at="2020-04-26T11:34:44Z">
+    <test name="Default test" duration-ms="10527" started-at="2020-04-29T14:27:47Z" finished-at="2020-04-29T14:27:57Z">
       <class name="SfaxPack.Purchase">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SfaxPack.Purchase@396a51ab]" name="beforeTest" is-config="true" duration-ms="7302" started-at="2020-04-26T17:04:34Z" finished-at="2020-04-26T17:04:41Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SfaxPack.Purchase@4dc27487]" name="beforeTest" is-config="true" duration-ms="7283" started-at="2020-04-29T19:57:47Z" finished-at="2020-04-29T19:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SfaxPack.Purchase@396a51ab]" name="f" duration-ms="216" started-at="2020-04-26T17:04:41Z" finished-at="2020-04-26T17:04:41Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:SfaxPack.Purchase@4dc27487]" name="f" duration-ms="864" started-at="2020-04-29T19:57:54Z" finished-at="2020-04-29T19:57:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SfaxPack.Purchase@396a51ab]" name="afterTest" is-config="true" duration-ms="2324" started-at="2020-04-26T17:04:41Z" finished-at="2020-04-26T17:04:44Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SfaxPack.Purchase@4dc27487]" name="afterTest" is-config="true" duration-ms="2335" started-at="2020-04-29T19:57:55Z" finished-at="2020-04-29T19:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- SfaxPack.Purchase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

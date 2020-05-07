@@ -2,6 +2,7 @@ package SfaxPack;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -15,6 +16,10 @@ public class Purchase {
 		System.out.println(name + " = Title Name");
 		String url = driver.getCurrentUrl();
 		System.out.println(url + "= URL");
+		driver.findElement(By.name("email")).sendKeys("nikhil@gmail.com");
+		driver.findElement(By.name("firstname")).sendKeys("aaa");
+		driver.findElement(By.name("lastname")).sendKeys("bbbb");
+		driver.findElement(By.name("reg_email__")).sendKeys("123456");
 
 	}
 
@@ -23,7 +28,7 @@ public class Purchase {
 
 		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 80.3987.106\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.youtube.com/");
+		driver.get("https://www.facebook.com/");
 
 	}
 
